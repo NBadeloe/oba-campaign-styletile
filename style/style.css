@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+  }
+  
+html {
+    font-family: 'Avenir', Helvetica, sans-serif;
+    background-color: #fafafa;
+  }
+.logo{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.fonts{
+    width: 600px;
+    height: 500px;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 0px;
+    float: left;
+    overflow: hidden;
+
+}
+.icons > svg{
+    margin: 10px;
+}
+.colorTitle{
+    margin-left: 1005px;
+    padding: 0px;
+}
+.fonts > h1, h2, p{
+    margin: 50px;
+    margin-right: 20px;
+    margin-left: 0px;
+ 
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 30px;
+}
+
+.red{
+    background-color: #ff0000;
+    width: 75px;
+    height: 75px;
+    
+}
+.color{
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(3, 75px);
+    grid-template-rows: repeat(3, 75px);
+    row-gap: 40px;
+    column-gap: 40px;
+    margin: 80px;
+    margin-top: 0px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    
+}
+
+.color > div{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 3px;
+    border-radius: 3px;
+} 
+
+.color >div > h4 {
+    opacity: 0;
+    transition: opacity .0s ease;
+    margin-top: 25px;
+}
+
+.color > div > h4:hover{
+    opacity: 1;
+}
+.white{
+    background-color: #fff;
+}
+.black{
+    background-color: #000;
+    color:#fff
+}
+
+.blue{
+    background-color: #0064c8;
+}
+
+.buttons{
+    float: right;
+    margin-right: 265px;
+}
+.blueButton{
+    background-color: #0064c8;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+}
+
+.redButton{
+    background-color: transparent;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid red;
+    color: red;
+}
